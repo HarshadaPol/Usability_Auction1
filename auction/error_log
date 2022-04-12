@@ -1,0 +1,165 @@
+[02-Oct-2021 09:34:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 09:35:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 09:36:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 09:57:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 09:57:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 09:58:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:12:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:19:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:20:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:20:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:20:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:23:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:23:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:23:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:23:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:23:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:23:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function] in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:26:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'flyseasi_ecommerce.languages' doesn't exist in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:352
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(352): PDO->prepare('select * from `...')
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(685): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(360): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:26:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'flyseasi_ecommerce.languages' doesn't exist in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:352
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(352): PDO->prepare('select * from `...')
+#1 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(685): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(360): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 692
+[02-Oct-2021 10:27:05 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home2/flyseasi/public_html/storage/framework/views/940c86c18d1e4411efd1e6e79d491ad0aee4995f.php(40): route('home')
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home2/flyseasi...')
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home2/flyseasi...', Array)
+#5 /home2/flyseasi/public_html/vendor/laravel/framework/ in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
+[02-Oct-2021 10:27:07 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home2/flyseasi/public_html/storage/framework/views/940c86c18d1e4411efd1e6e79d491ad0aee4995f.php(40): route('home')
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home2/flyseasi...')
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home2/flyseasi...', Array)
+#5 /home2/flyseasi/public_html/vendor/laravel/framework/ in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
+[02-Oct-2021 10:27:09 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home2/flyseasi/public_html/storage/framework/views/940c86c18d1e4411efd1e6e79d491ad0aee4995f.php(40): route('home')
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home2/flyseasi...')
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home2/flyseasi...', Array)
+#5 /home2/flyseasi/public_html/vendor/laravel/framework/ in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
+[02-Oct-2021 10:27:09 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home2/flyseasi/public_html/storage/framework/views/940c86c18d1e4411efd1e6e79d491ad0aee4995f.php(40): route('home')
+#2 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home2/flyseasi...')
+#3 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home2/flyseasi...', Array)
+#5 /home2/flyseasi/public_html/vendor/laravel/framework/ in /home2/flyseasi/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
